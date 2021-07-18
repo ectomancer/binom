@@ -1,6 +1,6 @@
 # binom
 <p>binomial coefficient</p>
-Don't use this slowish function (use binom in treefactorial in pure-python which I think uses a divide and conquer algorithm).
+Don't use this slowish function (use binom in treefactorial.py in pure-python which I think uses a divide and conquer algorithm).
 Pure Python binomial coefficient without using factorials uses Pascal's triangle algorithm by https://the-algorithms.com.
 The function has two optimisations, the first by https://the-algorithms.com is in the j = min(i, r) line and I added the second 
 which is a dictionary in the global scope.
